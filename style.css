@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'ChosunCentennial';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    color: #32da4e;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: #fbff00;
+    border-radius: 50px;
+    font-size: 70px;
+    box-shadow: 10px 10px 20px #32da4e;
+    font-family: 'ChosunCentennial';
+}
+
+h2 {
+    color: #32da4e;
+    background-color: #000000;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: dotted;
+    border-radius: 1000px;
+    font-family: 'ChosunCentennial';
+}
+
+h2::first-letter {
+    font-size: 30;
+    color: #ffffff;
+}
+
+h2:hover {
+    background-color: #ff0000;
+    color: #fbff00;
+    border-color: #fbff00;
+}
+
+h2:hover::first-letter {
+    color:aqua;
+}
+
+p {
+    text-indent: 20px;
+    line-height: 180%;
+    font-family: 'ChosunCentennial';
+    font-size: 20px;
+}
