@@ -1,0 +1,44 @@
+body{
+    background-color: background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    text-align: center;
+    padding: 50px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+
+h1{
+    color: rgb(51, 7, 7);
+}
+
+p{
+    color: rgb(51, 7, 7);
+}
+
+a{
+    display:block;
+    color:blue;
+    border: 2px solid;
+    padding: 20px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: red;
+    background-color: yellow;
+    border-color: black;
+    border-radius: 50px;
+    transform: scale(1.2) rotate(-5deg);
+    letter-spacing: 20px;
+    box-shadow: 5px 5px 5px #000;
+    font-weight: bold;
+}
